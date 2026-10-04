@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="goalissimo-navigation" name="Разделы и страницы">
+    <mxGraphModel dx="2560" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2560" pageHeight="1820" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge_0" parent="1" edge="1" source="root" target="tournaments" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280.0" y="135" />
+              <mxPoint x="220.0" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_1" parent="1" edge="1" source="root" target="matches" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280.0" y="135" />
+              <mxPoint x="1215.0" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_2" parent="1" edge="1" source="root" target="statistics" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280.0" y="135" />
+              <mxPoint x="1725.0" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_3" parent="1" edge="1" source="root" target="account" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280.0" y="135" />
+              <mxPoint x="2160.0" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4" parent="1" edge="1" source="tournaments" target="tournament_list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220.0" y="265" />
+              <mxPoint x="80" y="265" />
+              <mxPoint x="80" y="320.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_5" parent="1" edge="1" source="tournament_list" target="tournament" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270.0" y="375" />
+              <mxPoint x="130" y="375" />
+              <mxPoint x="130" y="420.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_6" parent="1" edge="1" source="tournament" target="overview" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325.0" y="475" />
+              <mxPoint x="180" y="475" />
+              <mxPoint x="180" y="520.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_7" parent="1" edge="1" source="tournament" target="teams" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325.0" y="475" />
+              <mxPoint x="180" y="475" />
+              <mxPoint x="180" y="620.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_8" parent="1" edge="1" source="tournament" target="draw" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325.0" y="475" />
+              <mxPoint x="180" y="475" />
+              <mxPoint x="180" y="1020.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_9" parent="1" edge="1" source="tournament" target="tournament_matches" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325.0" y="475" />
+              <mxPoint x="180" y="475" />
+              <mxPoint x="180" y="1220.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_10" parent="1" edge="1" source="tournament" target="tournament_statistics" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325.0" y="475" />
+              <mxPoint x="180" y="475" />
+              <mxPoint x="180" y="1420.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_11" parent="1" edge="1" source="tournament" target="stadiums" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325.0" y="475" />
+              <mxPoint x="180" y="475" />
+              <mxPoint x="180" y="1520.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_12" parent="1" edge="1" source="tournament" target="parameters" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325.0" y="475" />
+              <mxPoint x="180" y="475" />
+              <mxPoint x="180" y="1720.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_13" parent="1" edge="1" source="teams" target="team" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="620.0" />
+              <mxPoint x="530" y="620.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_14" parent="1" edge="1" source="teams" target="applications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="620.0" />
+              <mxPoint x="530" y="920.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_15" parent="1" edge="1" source="team" target="tournament_squad" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715.0" y="675" />
+              <mxPoint x="570" y="675" />
+              <mxPoint x="570" y="720.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_16" parent="1" edge="1" source="tournament_squad" target="footballer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765.0" y="775" />
+              <mxPoint x="620" y="775" />
+              <mxPoint x="620" y="820.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_17" parent="1" edge="1" source="draw" target="pots" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1020.0" />
+              <mxPoint x="530" y="1020.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_18" parent="1" edge="1" source="draw" target="groups_pairs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1020.0" />
+              <mxPoint x="530" y="1120.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_19" parent="1" edge="1" source="tournament_matches" target="tournament_schedule" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1220.0" />
+              <mxPoint x="530" y="1220.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_20" parent="1" edge="1" source="tournament_matches" target="tournament_results" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1220.0" />
+              <mxPoint x="530" y="1320.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_21" parent="1" edge="1" source="stadiums" target="stadium" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1520.0" />
+              <mxPoint x="530" y="1520.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_22" parent="1" edge="1" source="stadium" target="availability" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725.0" y="1575" />
+              <mxPoint x="580" y="1575" />
+              <mxPoint x="580" y="1620.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_23" parent="1" edge="1" source="matches" target="schedule" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1215.0" y="265" />
+              <mxPoint x="1070" y="265" />
+              <mxPoint x="1070" y="320.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_24" parent="1" edge="1" source="matches" target="results" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1215.0" y="265" />
+              <mxPoint x="1070" y="265" />
+              <mxPoint x="1070" y="420.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_25" parent="1" edge="1" source="matches" target="match" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1215.0" y="265" />
+              <mxPoint x="1070" y="265" />
+              <mxPoint x="1070" y="520.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_26" parent="1" edge="1" source="matches" target="conflicts" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1215.0" y="265" />
+              <mxPoint x="1070" y="265" />
+              <mxPoint x="1070" y="1220.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_27" parent="1" edge="1" source="match" target="match_details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275.0" y="575" />
+              <mxPoint x="1130" y="575" />
+              <mxPoint x="1130" y="620.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_28" parent="1" edge="1" source="match" target="protocol" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275.0" y="575" />
+              <mxPoint x="1130" y="575" />
+              <mxPoint x="1130" y="720.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_29" parent="1" edge="1" source="protocol" target="score" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345.0" y="775" />
+              <mxPoint x="1200" y="775" />
+              <mxPoint x="1200" y="820.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_30" parent="1" edge="1" source="protocol" target="goals" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345.0" y="775" />
+              <mxPoint x="1200" y="775" />
+              <mxPoint x="1200" y="920.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_31" parent="1" edge="1" source="protocol" target="warnings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345.0" y="775" />
+              <mxPoint x="1200" y="775" />
+              <mxPoint x="1200" y="1020.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_32" parent="1" edge="1" source="protocol" target="sendings_off" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345.0" y="775" />
+              <mxPoint x="1200" y="775" />
+              <mxPoint x="1200" y="1120.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_33" parent="1" edge="1" source="statistics" target="team_statistics" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1725.0" y="265" />
+              <mxPoint x="1570" y="265" />
+              <mxPoint x="1570" y="320.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_34" parent="1" edge="1" source="statistics" target="player_statistics" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1725.0" y="265" />
+              <mxPoint x="1570" y="265" />
+              <mxPoint x="1570" y="420.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_35" parent="1" edge="1" source="statistics" target="standings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1725.0" y="265" />
+              <mxPoint x="1570" y="265" />
+              <mxPoint x="1570" y="520.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_36" parent="1" edge="1" source="statistics" target="bracket" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1725.0" y="265" />
+              <mxPoint x="1570" y="265" />
+              <mxPoint x="1570" y="620.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_37" parent="1" edge="1" source="statistics" target="disqualifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1725.0" y="265" />
+              <mxPoint x="1570" y="265" />
+              <mxPoint x="1570" y="720.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_38" parent="1" edge="1" source="account" target="profile" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160.0" y="265" />
+              <mxPoint x="2020" y="265" />
+              <mxPoint x="2020" y="320.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_39" parent="1" edge="1" source="account" target="my_tournaments" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160.0" y="265" />
+              <mxPoint x="2020" y="265" />
+              <mxPoint x="2020" y="420.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_40" parent="1" edge="1" source="account" target="my_matches" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160.0" y="265" />
+              <mxPoint x="2020" y="265" />
+              <mxPoint x="2020" y="520.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_41" parent="1" edge="1" source="account" target="my_team" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160.0" y="265" />
+              <mxPoint x="2020" y="265" />
+              <mxPoint x="2020" y="620.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_42" parent="1" edge="1" source="account" target="my_statistics" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160.0" y="265" />
+              <mxPoint x="2020" y="265" />
+              <mxPoint x="2020" y="1020.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_43" parent="1" edge="1" source="account" target="security" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160.0" y="265" />
+              <mxPoint x="2020" y="265" />
+              <mxPoint x="2020" y="1120.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_44" parent="1" edge="1" source="my_team" target="current_squad" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2230.0" y="675" />
+              <mxPoint x="2090" y="675" />
+              <mxPoint x="2090" y="720.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_45" parent="1" edge="1" source="my_team" target="my_tournament_squads" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2230.0" y="675" />
+              <mxPoint x="2090" y="675" />
+              <mxPoint x="2090" y="820.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_46" parent="1" edge="1" source="my_team" target="my_applications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2230.0" y="675" />
+              <mxPoint x="2090" y="675" />
+              <mxPoint x="2090" y="920.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="root" value="Goalissimo" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=28;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="45" as="geometry" width="300" height="60" />
+        </mxCell>
+        <mxCell id="tournaments" value="Турниры" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=25;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="175" as="geometry" width="300" height="60" />
+        </mxCell>
+        <mxCell id="matches" value="Матчи" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=25;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="175" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="statistics" value="Статистика" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=25;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="175" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="account" value="Личный кабинет" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=25;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="175" as="geometry" width="320" height="60" />
+        </mxCell>
+        <mxCell id="tournament_list" value="Список турниров" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="290" as="geometry" width="320" height="60" />
+        </mxCell>
+        <mxCell id="tournament" value="Карточка турнира" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="390" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="overview" value="Обзор" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" as="geometry" width="300" height="60" />
+        </mxCell>
+        <mxCell id="teams" value="Команды" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="590" as="geometry" width="300" height="60" />
+        </mxCell>
+        <mxCell id="draw" value="Жеребьёвка" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="990" as="geometry" width="300" height="60" />
+        </mxCell>
+        <mxCell id="tournament_matches" value="Матчи" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1190" as="geometry" width="300" height="60" />
+        </mxCell>
+        <mxCell id="tournament_statistics" value="Статистика" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1390" as="geometry" width="300" height="60" />
+        </mxCell>
+        <mxCell id="stadiums" value="Стадионы" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1490" as="geometry" width="300" height="60" />
+        </mxCell>
+        <mxCell id="parameters" value="Параметры турнира" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1690" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="team" value="Карточка команды" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="590" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="tournament_squad" value="Состав на турнир" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="690" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="footballer" value="Карточка футболиста" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="790" as="geometry" width="350" height="60" />
+        </mxCell>
+        <mxCell id="applications" value="Заявки команд" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="890" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="pots" value="Корзины команд" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="990" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="groups_pairs" value="Группы и пары" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1090" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="tournament_schedule" value="Расписание" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1190" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="tournament_results" value="Результаты" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1290" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="stadium" value="Карточка стадиона" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1490" as="geometry" width="350" height="60" />
+        </mxCell>
+        <mxCell id="availability" value="Периоды доступности" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1590" as="geometry" width="370" height="60" />
+        </mxCell>
+        <mxCell id="schedule" value="Расписание" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="290" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="results" value="Результаты" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="390" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="match" value="Карточка матча" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="490" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="conflicts" value="Конфликты расписания" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1190" as="geometry" width="370" height="60" />
+        </mxCell>
+        <mxCell id="match_details" value="Сведения о матче" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="590" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="protocol" value="Протокол матча" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="690" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="score" value="Итоговый счёт" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="790" as="geometry" width="280" height="60" />
+        </mxCell>
+        <mxCell id="goals" value="Голы" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="890" as="geometry" width="280" height="60" />
+        </mxCell>
+        <mxCell id="warnings" value="Предупреждения" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="990" as="geometry" width="280" height="60" />
+        </mxCell>
+        <mxCell id="sendings_off" value="Удаления" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1090" as="geometry" width="280" height="60" />
+        </mxCell>
+        <mxCell id="team_statistics" value="Статистика команд" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="290" as="geometry" width="340" height="60" />
+        </mxCell>
+        <mxCell id="player_statistics" value="Статистика футболистов" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="390" as="geometry" width="370" height="60" />
+        </mxCell>
+        <mxCell id="standings" value="Турнирная таблица" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="490" as="geometry" width="340" height="60" />
+        </mxCell>
+        <mxCell id="bracket" value="Кубковая сетка" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="590" as="geometry" width="340" height="60" />
+        </mxCell>
+        <mxCell id="disqualifications" value="Дисквалификации" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="690" as="geometry" width="340" height="60" />
+        </mxCell>
+        <mxCell id="profile" value="Профиль" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="290" as="geometry" width="320" height="60" />
+        </mxCell>
+        <mxCell id="my_tournaments" value="Мои турниры" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="390" as="geometry" width="320" height="60" />
+        </mxCell>
+        <mxCell id="my_matches" value="Мои матчи" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="490" as="geometry" width="320" height="60" />
+        </mxCell>
+        <mxCell id="my_team" value="Моя команда" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="590" as="geometry" width="320" height="60" />
+        </mxCell>
+        <mxCell id="my_statistics" value="Моя статистика" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="990" as="geometry" width="320" height="60" />
+        </mxCell>
+        <mxCell id="security" value="Безопасность" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="1090" as="geometry" width="320" height="60" />
+        </mxCell>
+        <mxCell id="current_squad" value="Текущий состав" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="690" as="geometry" width="320" height="60" />
+        </mxCell>
+        <mxCell id="my_tournament_squads" value="Составы на турниры" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="790" as="geometry" width="330" height="60" />
+        </mxCell>
+        <mxCell id="my_applications" value="Заявки" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=6;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="890" as="geometry" width="320" height="60" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
