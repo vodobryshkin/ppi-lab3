@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="05_users_access" name="Пользователь и доступ">
+    <mxGraphModel dx="1100" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1120" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge_33" edge="1" parent="1" source="user_e" target="tournament_e" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="445.0" />
+              <mxPoint x="410" y="135.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_34" edge="1" parent="1" source="user_e" target="team_e" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="445.0" />
+              <mxPoint x="410" y="335.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_35" edge="1" parent="1" source="user_e" target="result_e" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="445.0" />
+              <mxPoint x="410" y="535.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_36" edge="1" parent="1" source="user_e" target="event_e" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="445.0" />
+              <mxPoint x="410" y="735.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_37" edge="1" parent="1" source="user_e" target="footballer_e" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="445.0" />
+              <mxPoint x="410" y="935.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="user_e" vertex="1" parent="1" value="Пользователь" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="40" y="410" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tournament_e" vertex="1" parent="1" value="Турнир" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="730" y="100" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="team_e" vertex="1" parent="1" value="Команда" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="730" y="300" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="result_e" vertex="1" parent="1" value="Результат матча" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="730" y="500" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="event_e" vertex="1" parent="1" value="Игровое событие" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="730" y="700" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="footballer_e" vertex="1" parent="1" value="Футболист" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="730" y="900" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_33_label" vertex="1" parent="1" value="организатор:&#10;управление" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="502.0" y="107.0" width="136" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_34_label" vertex="1" parent="1" value="тренер:&#10;управление" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="507.0" y="307.0" width="126" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_35_label" vertex="1" parent="1" value="судья / организатор:&#10;ввод данных" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="468.0" y="507.0" width="204" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_36_label" vertex="1" parent="1" value="судья / организатор:&#10;ввод данных" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="468.0" y="707.0" width="204" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_37_label" vertex="1" parent="1" value="связь с профилем&#10;(если есть)" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="477.0" y="907.0" width="186" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="page_title" vertex="1" parent="1" value="Пользователь и доступ" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=28;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="40" y="27" width="1020" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="access_note" vertex="1" parent="1" value="Доступ определяется ролью и назначениями пользователя." style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=21;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="40" y="1040" width="1000" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

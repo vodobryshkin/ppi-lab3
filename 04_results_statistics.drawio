@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="04_results_statistics" name="Результаты и статистика">
+    <mxGraphModel dx="1260" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1260" pageHeight="1140" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge_25" edge="1" parent="1" source="match_d" target="result_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="245" />
+              <mxPoint x="245" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_26" edge="1" parent="1" source="match_d" target="event_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="245" />
+              <mxPoint x="1025" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_27" edge="1" parent="1" source="result_d" target="team_statistics_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_28" edge="1" parent="1" source="result_d" target="position_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="355" />
+              <mxPoint x="50" y="680" />
+              <mxPoint x="245" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_29" edge="1" parent="1" source="event_d" target="player_statistics_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_30" edge="1" parent="1" source="event_d" target="footballer_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1215" y="370" />
+              <mxPoint x="1215" y="660" />
+              <mxPoint x="1025" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_31" edge="1" parent="1" source="footballer_d" target="disqualification_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_32" edge="1" parent="1" source="disqualification_d" target="tournament_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#222222;strokeWidth=2;endArrow=block;endFill=1;endSize=8;startArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=6;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="match_d" vertex="1" parent="1" value="Матч" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#eeeeee;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="450" y="100" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="result_d" vertex="1" parent="1" value="Результат матча" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="80" y="320" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="event_d" vertex="1" parent="1" value="Игровое событие&#10;Гол, предупреждение,&#10;удаление" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=22;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="860" y="320" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="team_statistics_d" vertex="1" parent="1" value="Статистика команд" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="80" y="540" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="player_statistics_d" vertex="1" parent="1" value="Статистика футболистов" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=22;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="860" y="540" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="position_d" vertex="1" parent="1" value="Турнирная таблица /&#10;кубковая сетка" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="80" y="780" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="footballer_d" vertex="1" parent="1" value="Футболист" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="860" y="760" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="disqualification_d" vertex="1" parent="1" value="Дисквалификация" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="860" y="970" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tournament_d" vertex="1" parent="1" value="Турнир" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;fontColor=#111111;fontFamily=Arial;fontSize=24;fontStyle=0;align=center;verticalAlign=middle;spacing=5;shadow=0;">
+          <mxGeometry x="360" y="970" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_25_label" vertex="1" parent="1" value="имеет" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="388.5" y="230.0" width="73" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_26_label" vertex="1" parent="1" value="содержит" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="812.5" y="230.0" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_27_label" vertex="1" parent="1" value="вычисляется" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="177.0" y="435.0" width="136" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_28_label" vertex="1" parent="1" value="вычисляется" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="177.0" y="715.0" width="136" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_29_label" vertex="1" parent="1" value="вычисляется" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="957.0" y="460.0" width="136" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_30_label" vertex="1" parent="1" value="связано с" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="972.0" y="695.0" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_31_label" vertex="1" parent="1" value="имеет" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="988.5" y="885.0" width="73" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_32_label" vertex="1" parent="1" value="действует в" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=#ffffff;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="712.0" y="990.0" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="page_title" vertex="1" parent="1" value="Результаты и статистика" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=28;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="40" y="27" width="1180" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="table_note" vertex="1" parent="1" value="по формату и правилам турнира" style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="40" y="890" width="410" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="page_legend" vertex="1" parent="1" value="Пунктир — вычисляемые данные." style="text;whiteSpace=wrap;html=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=20;fontColor=#111111;fontStyle=0;align=center;verticalAlign=middle;spacing=0;connectable=0;resizable=1;">
+          <mxGeometry x="40" y="1075" width="1180" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
